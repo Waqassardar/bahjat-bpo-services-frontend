@@ -1617,7 +1617,7 @@ async function createCheckoutSession(price) {
   try {
     console.log('Sending request to API with price:', price);
     
-    const response = await fetch('https://bahjat-bpo-services-backend.vercel.app/create-checkout-session', {
+    const response = await fetch('https://bahjat-bpo-services-backend-two.vercel.app/create-checkout-session', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
